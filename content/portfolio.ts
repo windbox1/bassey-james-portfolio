@@ -1,0 +1,157 @@
+// EDIT THIS FILE to change the words, links, projects and contact details.
+// To add a picture: put it in public/images, then write its path below.
+// Example: profileImage: "/images/my-photo.jpg"
+
+export const portfolio = {
+  name: "Bassey James",
+  initials: "BJ",
+  role: "Software Developer",
+  location: "Nigeria",
+  company: "Zenix Technological Lab",
+
+  headline: "I build digital products that work.",
+
+  intro:
+    "Web apps, mobile solutions, backend systems and API integrations built for businesses with ambitious ideas.",
+
+  availability: "Available for freelance projects",
+
+  profileImage: "/images/James.jpg",
+
+  about: [
+    "I’m Bassey James, a software developer focused on practical, scalable and user-friendly digital solutions.",
+    "I work with businesses, entrepreneurs and startups that need more than a website — they need technology that performs.",
+  ],
+
+  email: "hello@zenixtlab.com",
+
+  github: "https://github.com/Windbox1",
+
+  whatsapp: "https://wa.me/2348076679176",
+
+  technologies: [
+    {
+      title: "Frontend",
+      list: "React · React Native · JavaScript · Tailwind CSS",
+    },
+    {
+      title: "Backend",
+      list: "Node.js · Express · PHP · Python",
+    },
+    {
+      title: "Data",
+      list: "PostgreSQL · MySQL",
+    },
+    {
+      title: "Integration",
+      list: "REST APIs · Paystack · Git · GitHub",
+    },
+  ],
+
+  services: [
+    {
+      number: "01",
+      title: "Web applications",
+      description:
+        "Responsive platforms, dashboards and business tools built to feel fast on every screen.",
+    },
+    {
+      number: "02",
+      title: "Mobile solutions",
+      description:
+        "Clean, dependable mobile experiences built with React Native to keep your services close to your customers.",
+    },
+    {
+      number: "03",
+      title: "Backend systems",
+      description:
+        "Secure authentication, databases, transaction processing and business logic designed to scale.",
+    },
+    {
+      number: "04",
+      title: "API integration",
+      description:
+        "Payments, financial services and third-party platforms connected into one reliable product.",
+    },
+  ],
+
+  projects: [
+    {
+      number: "01",
+      title: "SwiftMint",
+      type: "Fintech platform",
+      description:
+        "A digital wallet platform for Naira and cryptocurrency wallets, transfers, conversions, bills and account management.",
+      tags: ["React Native", "JavaScript", "REST API", "FinTech"],
+      tone: "lime",
+      stat: "12+",
+      statLabel: "connected features",
+      image: "",
+      link: "",
+    },
+    {
+      number: "02",
+      title: "Pharmacy Inventory",
+      type: "Business operations",
+      description:
+        "An inventory and records management system for tracking products, suppliers, expiry dates, sales and reports.",
+      tags: ["PHP", "MySQL", "JavaScript"],
+      tone: "blue",
+      stat: "360°",
+      statLabel: "stock visibility",
+      image: "",
+      link: "",
+    },
+    {
+      number: "03",
+      title: "Gadget Inventory",
+      type: "Commerce operations",
+      description:
+        "An online inventory and sales management system designed for laptop, computer accessory and electronics businesses.",
+      tags: ["Web App", "Inventory", "Dashboard"],
+      tone: "orange",
+      stat: "24/7",
+      statLabel: "business access",
+      image: "",
+      link: "",
+    },
+    {
+      number: "04",
+      title: "Academic Platform",
+      type: "Education technology",
+      description:
+        "A digital learning platform concept combining live classes, attendance, assignments, learning materials and administration.",
+      tags: ["EdTech", "Live Classes", "Admin"],
+      tone: "violet",
+      stat: "1 hub",
+      statLabel: "for every learner",
+      image: "",
+      link: "",
+    },
+  ],
+
+  process: [
+    {
+      number: "01",
+      title: "Discover",
+      description: "Understand the idea, users and business problem.",
+    },
+    {
+      number: "02",
+      title: "Plan",
+      description: "Define features, structure and a clear roadmap.",
+    },
+    {
+      number: "03",
+      title: "Build",
+      description:
+        "Develop progressively with focus on usability, performance and security.",
+    },
+    {
+      number: "04",
+      title: "Launch",
+      description:
+        "Test, deploy and support the product in the real world.",
+    },
+  ],
+} as const;
