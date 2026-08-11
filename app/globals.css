@@ -7,3 +7,45 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker div{animation:none}}
 .hero-art.has-photo{background-size:cover;background-position:center;border:1px solid var(--line);margin:42px 0}
 .project-visual.has-image{background-size:cover;background-position:center}
+/* PROJECT IMAGE GALLERY */
+
+.project-gallery {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 16px;
+  scrollbar-width: thin;
+}
+
+.project-slide {
+  flex: 0 0 46%;
+  scroll-snap-align: start;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.project-slide img {
+  width: 100%;
+  height: 420px;
+  object-fit: contain;
+  display: block;
+  border-radius: 18px;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .project-gallery {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .project-slide {
+    flex: 0 0 78%;
+  }
+
+  .project-slide img {
+    height: 480px;
+  }
+}

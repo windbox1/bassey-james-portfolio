@@ -16,14 +16,14 @@ export const portfolio = {
 
   availability: "Available for freelance projects",
 
-  profileImage: "/images/James.jpg",
+  profileImage: "/images/James.png",
 
   about: [
     "I’m Bassey James, a software developer focused on practical, scalable and user-friendly digital solutions.",
     "I work with businesses, entrepreneurs and startups that need more than a website — they need technology that performs.",
   ],
 
-  email: "hello@zenixtlab.com",
+  email: "Jamesbassey2013@gmail.com",
 
   github: "https://github.com/Windbox1",
 
@@ -86,9 +86,17 @@ export const portfolio = {
       tone: "lime",
       stat: "12+",
       statLabel: "connected features",
-      image: "",
+
+      images: [
+        "/images/swiftmint/swiftmint-1.png",
+        "/images/swiftmint/swiftmint-2.png",
+        "/images/swiftmint/swiftmint-3.png",
+        "/images/swiftmint/swiftmint-4.png",
+      ],
+
       link: "",
     },
+
     {
       number: "02",
       title: "Pharmacy Inventory",
@@ -99,9 +107,12 @@ export const portfolio = {
       tone: "blue",
       stat: "360°",
       statLabel: "stock visibility",
-      image: "",
+
+      images: [],
+
       link: "",
     },
+
     {
       number: "03",
       title: "Gadget Inventory",
@@ -112,9 +123,12 @@ export const portfolio = {
       tone: "orange",
       stat: "24/7",
       statLabel: "business access",
-      image: "",
+
+      images: [],
+
       link: "",
     },
+
     {
       number: "04",
       title: "Academic Platform",
@@ -125,7 +139,9 @@ export const portfolio = {
       tone: "violet",
       stat: "1 hub",
       statLabel: "for every learner",
-      image: "",
+
+      images: [],
+
       link: "",
     },
   ],
