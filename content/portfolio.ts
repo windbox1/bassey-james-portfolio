@@ -90,10 +90,10 @@ export const portfolio = {
       statLabel: "connected features",
 
       images: [
-        "/images/swiftmint/swiftmint-1.png",
-        "/images/swiftmint/swiftmint-2.png",
-        "/images/swiftmint/swiftmint-3.png",
-        "/images/swiftmint/swiftmint-4.png",
+        "/images/Swiftmint/Swiftmint-1.png",
+        "/images/Swiftmint/Swiftmint-2.png",
+        "/images/Swiftmint/Swiftmint-3.png",
+        "/images/Swiftmint/Swiftmint-4.png",
       ],
 
       link: "",
@@ -115,40 +115,10 @@ export const portfolio = {
       link: "",
     },
 
+
+
     {
       number: "03",
-      title: "Gadget Inventory",
-      type: "Commerce operations",
-      description:
-        "An online inventory and sales management system designed for laptop, computer accessory and electronics businesses.",
-      tags: ["Web App", "Inventory", "Dashboard"],
-      tone: "orange",
-      stat: "24/7",
-      statLabel: "business access",
-
-      images: [],
-
-      link: "",
-    },
-
-    {
-      number: "04",
-      title: "Academic Platform",
-      type: "Education technology",
-      description:
-        "A digital learning platform concept combining live classes, attendance, assignments, learning materials and administration.",
-      tags: ["EdTech", "Live Classes", "Admin"],
-      tone: "violet",
-      stat: "1 hub",
-      statLabel: "for every learner",
-
-      images: [],
-
-      link: "",
-    },
-
-    {
-      number: "05",
       title: "Wellness & Beauty by Tunzi",
       type: "Wellness & beauty website",
       description:
