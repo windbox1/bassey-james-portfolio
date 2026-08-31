@@ -27,6 +27,8 @@ export const portfolio = {
 
   github: "https://github.com/Windbox1",
 
+  linkedin: "https://www.linkedin.com/in/james-bassey-262601431/",
+
   whatsapp: "https://wa.me/2348076679176",
 
   technologies: [
@@ -139,6 +141,22 @@ export const portfolio = {
       tone: "violet",
       stat: "1 hub",
       statLabel: "for every learner",
+
+      images: [],
+
+      link: "",
+    },
+
+    {
+      number: "05",
+      title: "Wellness & Beauty by Tunzi",
+      type: "Wellness & beauty website",
+      description:
+        "A polished digital home for a wellness and beauty brand, designed to present its services clearly and help clients connect with the business.",
+      tags: ["Web Design", "Responsive UI", "Frontend Development"],
+      tone: "violet",
+      stat: "100%",
+      statLabel: "responsive experience",
 
       images: [],
 

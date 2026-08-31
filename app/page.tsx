@@ -401,6 +401,14 @@ export default function Home() {
                 GitHub
               </a>
 
+              <a
+                href={portfolio.linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+
               <a href={mail}>
                 Email
               </a>
