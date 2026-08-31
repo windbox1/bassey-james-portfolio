@@ -196,12 +196,6 @@ export default function Home() {
                         )
                       )}
                     </div>
-                  ) : project.title === "Wellness & Beauty by Tunzi" ? (
-                    <div className="wellness-mark" aria-hidden="true">
-                      <span>W</span>
-                      <i>✦</i>
-                      <small>Beauty by Tunzi</small>
-                    </div>
                   ) : (
                     <div className="mock-window">
                       <i />
@@ -238,7 +232,7 @@ export default function Home() {
               </article>
             );
 
-            return project.link ? (
+            return (
               <a
                 href={project.link}
                 target="_blank"
@@ -247,10 +241,6 @@ export default function Home() {
               >
                 {card}
               </a>
-            ) : (
-              <div key={project.title}>
-                {card}
-              </div>
             );
           })}
         </div>

@@ -49,4 +49,3 @@
     height: 480px;
   }
 }
-.wellness-mark{position:relative;z-index:1;width:180px;height:180px;border:1px solid rgba(255,255,255,.45);border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(183,154,255,.12);box-shadow:0 0 0 18px rgba(183,154,255,.08),0 0 70px rgba(183,154,255,.28)}.wellness-mark span{font:500 86px/1 Georgia,serif}.wellness-mark i{position:absolute;top:24px;right:32px;color:var(--violet);font-style:normal;font-size:24px}.wellness-mark small{position:absolute;bottom:27px;font:600 9px var(--font-mono);letter-spacing:1.5px;text-transform:uppercase}

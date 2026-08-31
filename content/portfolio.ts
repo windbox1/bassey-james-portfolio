@@ -86,14 +86,11 @@ export const portfolio = {
         "A digital wallet platform for Naira and cryptocurrency wallets, transfers, conversions, bills and account management.",
       tags: ["React Native", "JavaScript", "REST API", "FinTech"],
       tone: "lime",
-      stat: "12+",
-      statLabel: "connected features",
+      stat: "Live",
+      statLabel: "website preview",
 
       images: [
-        "/images/Swiftmint/Swiftmint-1.png",
-        "/images/Swiftmint/Swiftmint-2.png",
-        "/images/Swiftmint/Swiftmint-3.png",
-        "/images/Swiftmint/Swiftmint-4.png",
+        "/images/projects/swiftmint-website.png",
       ],
 
       link: "https://swiftmint-app.onrender.com/",
@@ -101,36 +98,20 @@ export const portfolio = {
 
     {
       number: "02",
-      title: "Pharmacy Inventory",
-      type: "Business operations",
-      description:
-        "An inventory and records management system for tracking products, suppliers, expiry dates, sales and reports.",
-      tags: ["PHP", "MySQL", "JavaScript"],
-      tone: "blue",
-      stat: "360°",
-      statLabel: "stock visibility",
-
-      images: [],
-
-      link: "",
-    },
-
-
-
-    {
-      number: "03",
-      title: "Wellness & Beauty by Tunzi",
+      title: "Beauty & Wellness by Tumzy",
       type: "Wellness & beauty website",
       description:
-        "A polished digital home for a wellness and beauty brand, designed to present its services clearly and help clients connect with the business.",
+        "A polished digital home for the Beauty & Wellness by Tumzy brand, designed to present its services clearly and help clients connect with the business.",
       tags: ["Web Design", "Responsive UI", "Frontend Development"],
       tone: "violet",
-      stat: "100%",
-      statLabel: "responsive experience",
+      stat: "Live",
+      statLabel: "website preview",
 
-      images: [],
+      images: [
+        "/images/projects/tumzy-website.png",
+      ],
 
-      link: "",
+      link: "https://beauty-wellness-by-tumzy.vercel.app/",
     },
   ],
 
